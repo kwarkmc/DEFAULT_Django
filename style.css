@@ -1,0 +1,27 @@
+@import url('https://fonts.googleapis.com/css?family=Do+Hyeon|Nanum+Brush+Script|Noto+Serif+KR&display=swap');
+
+
+body{
+    color: black;
+}
+
+h1{
+    color: deeppink;
+    font-family: 'Nanum Brush Script', cursive;
+    text-align: center;
+}
+
+#hstyle1{
+    color: cadetblue;
+}
+
+#hstyle2{
+    color: chocolate;
+    font-family: 'Noto Serif KR', serif;
+}
+
+.thisisclass{
+    background-color: darkblue;
+    color: white;
+    font-family: 'Do Hyeon', sans-serif;
+}

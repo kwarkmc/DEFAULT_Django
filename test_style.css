@@ -1,0 +1,23 @@
+@import url('https://fonts.googleapis.com/css?family=Do+Hyeon|Nanum+Myeongjo|Nanum+Pen+Script&display=swap');
+
+h1{
+    background-color: brown;
+    color: yellow;
+    font-family: 'Nanum Myeongjo', serif;
+}
+
+h2{
+    font-family: 'Nanum Myeongjo', serif;
+}
+
+#h1_1{
+    background-color: tomato;
+    color: whitesmoke;
+}
+
+.class_1{
+    background-color: teal;
+    color: wheat;
+    text-align: center;
+}
+
