@@ -1,14 +1,24 @@
 <!DOCTYPE html>
 <html>
     <head>
-
+        <style type="text/css">
+        @import url('https://fonts.googleapis.com/css?family=Anton|Black+Han+Sans|Noto+Serif+KR&display=swap');
+            body{
+                background-color: cornsilk;
+            }
+            h1{
+                font-family: 'Black Han Sans', sans-serif;
+                color: brown;
+            }
+            
+        </style>
     </head>
     <body>
         <a href="{% url 'detail' %}"><h1>WORD COUNT</h1></a>
         <form action="{% url 'result' %}">
             <textarea name="fulltext" cols="30" rows="10"></textarea>
             <br><br>
-            <button type="submit">Let's Count!</button>
+            <button type="submit" style="color: brown; font-family: 'Black Han Sans', sans-serif;">Let's Count!</button>
         </form>
     </body>
 </html>

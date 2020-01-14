@@ -1,10 +1,26 @@
 <!DOCTYPE html>
 <html>
     <head>
-
+        <style type="text/css">
+            @import url('https://fonts.googleapis.com/css?family=Anton|Black+Han+Sans|Noto+Serif+KR&display=swap');
+            body{
+                background-color: cornsilk;
+            }
+            #info{
+                font-family: 'Noto Serif KR', serif;
+                text-align: center;
+            }
+            #return{
+                font-family: 'Black Han Sans', sans-serif;
+                text-align: center;
+            }
+        </style>
     </head>
     <body>
-        <p>이 페이지는 글을 입력하고 버튼을 누르면 단어를 세어주는 서비스를 제공해줍니다.</p>
-        <a href="{% url 'home' %}">돌아가기</a>
+        <p id="info">이 페이지는 글을 입력하고 버튼을 누르면 단어를 세어주는 서비스를 제공해줍니다.</p>
+        <br>
+        <div id="return">
+            <a href="{% url 'home' %}">돌아가기</a>
+        </div>
     </body>
 </html>
